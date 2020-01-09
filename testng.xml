@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Regression">
+    <test name="VyTrack regression tests">
+        <parameter name="test" value="regression"></parameter>
+        <packages>
+            <package name="tests.vyTrack"></package>
+        </packages>
+    </test>
+</suite>
+
+<!--
+ <parameter name="test" value="regression"></parameter>
+        <packages>
+            <package name="tests.vyTrack.LoginTests"></package>
+        </packages>
+-->
+
+        <!--   <test name="Login Tests">
+                <classes>
+                    <class name="tests.vyTrack.LoginTests"/>   =====> class is self closing tag. We have to delete </class> .
+                </classes>
+            </test>
+            <test name="Calender Events Tests">
+                <classes>
+                    <class name="tests.vyTrack.NewCalenderEventsTest"/>
+                </classes>
+            </test> -->
